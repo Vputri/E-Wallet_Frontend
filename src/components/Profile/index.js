@@ -15,7 +15,7 @@ const Profile = () => {
             <div className="col-9">
               <h4 className="fw-bolder">Vika Putri Ariyanti</h4>
               <p>5641094</p>
-              <a href="editprofile" class="btn btn-primary" role="button">Edit Profile</a>
+              <a href="editprofile" className="btn btn-primary" role="button">Edit Profile</a>
             </div>
           </div>
         </div>
