@@ -15,22 +15,20 @@ const Profile = () => {
             <div className="col-9">
               <h4 className="fw-bolder">Vika Putri Ariyanti</h4>
               <p>5641094</p>
-              <button type="button" 
-                className="btn btn-primary">Edit Profile
-              </button>
+              <a href="editprofile" class="btn btn-primary" role="button">Edit Profile</a>
             </div>
           </div>
         </div>
         
         <div className="col-xl-3 col-md-4 col-sm-6 mb-5">
-          <div class="card card-stats">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-3">
+          <div className="card card-stats">
+            <div className="card-body">
+              <div className="row">
+                <div className="col-3">
                   <img src={Masuk} className="card-img-top" alt="" />
                 </div>
-                <div class="col-9">
-                  <h5 class="card-title text-uppercase text-muted mb-0">Uang Masuk</h5>
+                <div className="col-9">
+                  <h5 className="card-title text-uppercase text-muted mb-0">Uang Masuk</h5>
                   <p>Rp 1.999.999,99</p>
                 </div>
               </div>
@@ -39,14 +37,14 @@ const Profile = () => {
         </div>
 
         <div className="col-xl-3 col-md-4 col-sm-6 mb-5">
-          <div class="card card-stats">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-3">
+          <div className="card card-stats">
+            <div className="card-body">
+              <div className="row">
+                <div className="col-3">
                   <img src={Keluar} className="card-img-top" alt="" />
                 </div>
-                <div class="col-9">
-                  <h6 class="card-title text-uppercase text-muted mb-0">Uang Keluar</h6>
+                <div className="col-9">
+                  <h6 className="card-title text-uppercase text-muted mb-0">Uang Keluar</h6>
                   <p>Rp 1.999.999,99</p>
                 </div>
               </div>

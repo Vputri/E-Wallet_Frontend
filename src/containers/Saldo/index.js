@@ -9,8 +9,8 @@ function Saldo() {
 		<Header/>
   		<section className="py-5 mb-5">
 		    <div className="container mb-5">
-            	<Profile/>
-            </div>
+          <Profile/>
+        </div>
      	</section>
      	<Footer/>
 	</>
