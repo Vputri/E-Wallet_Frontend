@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-function TopUp() {
+function EditProfile() {
   return (
   	<>
       <Header/>
@@ -11,4 +11,4 @@ function TopUp() {
   )
 }
 
-export default TopUp;
+export default EditProfile;

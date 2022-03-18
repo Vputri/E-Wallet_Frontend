@@ -35,7 +35,7 @@ function Home() {
 	          <img className="img-fluid" src={Icon} alt=""/>
 	          <a className="text-decoration-none text-muted"
 	          	href="https://www.vecteezy.com/free-vector/e-wallet">
-	          	<p class="text-center mt-3">E Wallet Vectors by Vecteezy</p>
+	          	<p className="text-center mt-3">E Wallet Vectors by Vecteezy</p>
 	          </a>
 	        </div>
 	      </div>
